@@ -137,7 +137,7 @@
     <input type="text" name="vacancy" placeholder="Вакансия" required>
     <button class="submit-btn" type="submit">Отправить</button>
   </form>
-  <button class="manager-btn" onclick="window.open('https://t.me/YOUR_MANAGER', '_blank')">Связь с менеджером</button>
+  <button class="manager-btn" onclick="window.open('https://t.me/work_ldnr1', '_blank')">Связь с менеджером</button>
   <div class="success" id="successMsg"></div>
 </div>
 
@@ -157,8 +157,8 @@ form.addEventListener('submit', async (e) => {
     vacancy: form.vacancy.value
   };
 
-  const botToken = 'YOUR_BOT_TOKEN'; // 🔹 Вставь токен бота
-  const chatId = 'YOUR_CHAT_ID';     // 🔹 Вставь chat_id
+  const botToken = '8299578234:AAFJBfs9sAdlpbF4ynRphPbtcjGJAJT7YPo'; // 🔹 Вставь токен бота
+  const chatId = '8218380237';     // 🔹 Вставь chat_id
   const message = `📝 Новая анкета:\nИмя: ${data.firstName}\nФамилия: ${data.lastName}\nТелефон: ${data.phone}\nГород: ${data.city}\nTelegram: ${data.telegram || 'не указано'}\nВакансия: ${data.vacancy}`;
 
   try {
@@ -188,3 +188,4 @@ form.addEventListener('submit', async (e) => {
 
 </body>
 </html>
+
